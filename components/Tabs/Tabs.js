@@ -16,7 +16,7 @@ class TabLink {
         //Why itemElement???because itemElement refers to the specific data-tab of the tabItem we are looking for. so when we click on the link, it will refer to the correct content. ALSO CRYSTAL- because if you looked at the instructions, that's what it said to do:)
 
         // Add a click event listener on this instance, calling the select method on clickS
-        this.itemElement.addEventListener("click", () => this.select())
+        this.element.addEventListener("click", () => this.select())
     }
 
     select() {
